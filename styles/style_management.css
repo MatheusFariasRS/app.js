@@ -1,6 +1,7 @@
 body{
     background-color: #4a362f;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #content {
@@ -19,7 +20,6 @@ header{
 
 h1{
     margin-top: 10px;
-    
     float: left;
 }
 h2{
@@ -85,7 +85,7 @@ nav ul li a:hover{
     background: #d9d9db;
 }
 
-#mounth{
+#month{
     display: block;
     float: left;
     height: 30px;
@@ -114,7 +114,6 @@ nav ul li a:hover{
     border-radius: 10px;
     margin-top: 10px;
     border-style: none;
-    text-align:calc(0, 150);
     border: 2px #121210 solid;
     background: #d9d9db;
     
@@ -137,7 +136,7 @@ nav ul li a:hover{
     height: 30px;
     width: 100px;
     margin-top: 5px;  
-    display: inline-block; 
+    
 
 }
 
@@ -146,13 +145,27 @@ nav ul li a:hover{
 }
 
 .tableItens{
-    background-color: #121210;
+    margin-top: 10px;
     display: block;
-    float: right;
-    
-    
+    margin-left: 7%;
+    color: #121210;
+    font-size: 20px;
+
 }
 
+#date{
+    padding-right: 50px;
+    
+}
+#type{
+    padding-left: 190px;
+    padding-right: 50px;
+}
+#descriptiones{
+    padding-left: 135px;
+    padding-right: 50px;
+    
+}
 
 .ola{
     color:#d9d9db;
