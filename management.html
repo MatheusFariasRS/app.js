@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management</title>
+    <link rel="stylesheet" href="/styles/style_management.css">
+</head>
+<body>
+
+    <div id="content">
+
+        <header>
+            <h1>Task List</h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/index.html#">Main</a></li>
+                    <li><a href="http://127.0.0.1:5501/management.html">Management</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+            <div id="principal">
+                <div>
+                    <h2>To Do List</h2>
+                    <br>
+                </div>
+                <form id="formulario">
+                    <div>
+                        <select id="year">
+                            <option value="">Year</option>
+                            <option value="2024">2024</option>
+                            <option value="2024">2025</option>
+                            <option value="2024">2026</option>
+                            <option value="2024">2027</option>
+                            <option value="2024">2028</option>
+                            <option value="2024">2029</option>
+                            <option value="2024">2030</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="mounth">
+                            <option value="">Mount</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Day" id="day" />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Description" id="description">
+                    </div>
+                    <div>
+                        <button id="butao" onclick="alert('funcionou')">Search</button>
+                    </div>
+                </form>
+                <table>
+                    <thead>
+                        <tr class="tableItens">
+                            <th id="date">Date</th>
+                            <th id="type">Type</th>
+                            <th id="descriptiones">Description</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
