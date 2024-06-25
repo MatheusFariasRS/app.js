@@ -116,18 +116,12 @@ nav ul li a:hover{
     border-style: none;
     border: 2px #121210 solid;
     background: #d9d9db;
+    resize: none;
     
     
     
 }
 
-#description::placeholder {
-    display: block;
-    float: left;
-    margin-left: 10px;
-    margin-top: -60px;
-  
-}
 
 #butao {
     background-color: #121210;
